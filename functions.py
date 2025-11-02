@@ -3,6 +3,7 @@ from PIL import Image
 import torch
 
 
+
 def get_image_caption(image_path):
     """
     Generates a short caption for the provided image.
