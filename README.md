@@ -5,19 +5,20 @@ This is a Streamlit application that allows users to ask questions about an uplo
 
 1. Clone the repository:
 
-        git clone https://github.com/your-username/image-question-answering.git
+        git clone https://github.com/user_name/AskTheImage.git
+   
         
-2. Change to the project directory:
+3. Change to the project directory:
 
         cd  ask-question-image-web-app-streamlit-langchain
         
-3. Install the required dependencies:
+4. Install the required dependencies:
 
         pip install -r requirements.txt
 
-4. Obtain an **OpenAI API key**. You can sign up for an API key at [OpenAI](https://platform.openai.com).
+5. Obtain an **OpenAI API key**. You can sign up for an API key at [OpenAI](https://platform.openai.com).
 
-5. Replace the placeholder API key in the main.py file with your actual OpenAI API key:
+6. Replace the placeholder API key in the main.py file with your actual OpenAI API key:
 
         llm = ChatOpenAI(
             openai_api_key='YOUR_API_KEY',
@@ -25,11 +26,11 @@ This is a Streamlit application that allows users to ask questions about an uplo
             model_name="gpt-4o-mini"
         )
 
-6. Run the Streamlit application:
+7. Run the Streamlit application:
 
         streamlit run main.py
 
-7. Open your web browser and go to http://localhost:8501 to access the application.
+8. Open your web browser and go to http://localhost:8501 to access the application.
 
 ## usage
 
