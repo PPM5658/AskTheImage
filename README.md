@@ -54,10 +54,6 @@ The application utilizes the following custom tools:
 
 Contributions are welcome! If you have any ideas, improvements, or bug fixes, please submit a pull request.
 
-## license
-
-This project is licensed under the MIT License.
-
 ## acknowledgements
 
 This project uses the OpenAI GPT-4o-mini. Visit [OpenAI](https://openai.com/) for more information.
